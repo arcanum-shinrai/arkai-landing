@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arcanum Shinrai</title>
+    <link rel="stylesheet" href="./assets/index.css">
+    <style>
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .logo-animation {
+        animation: fadeInUp 1.2s ease-out;
+      }
+
+      .fade-in {
+        animation: fadeInUp 1.2s ease-out;
+        animation-delay: 0.3s;
+        animation-fill-mode: both;
+      }
+    </style>
+  </head>
+  <body style="margin:0;background:#0b0b0b;color:#fff;font-family:'Segoe UI', sans-serif;text-align:center">
+    <div style="padding:50px 20px">
+      <img src="./arkai-logo.png" alt="Logo" style="width:140px" class="logo-animation" />
+      <h1 style="font-size:2.8em;margin:20px 0" class="fade-in">Arcanum Shinrai</h1>
+      <p style="color:#a78bfa;font-size:1.1em" class="fade-in">
+        Uniting Post-Quantum Security, AI & Decentralized Trust
+      </p>
+      <div style="margin:40px 0" class="fade-in">
+        <a href="./whitepaper-en.pdf" target="_blank" style="margin-right:20px;background:#fff;color:#000;padding:12px 24px;border-radius:10px;text-decoration:none;font-weight:600">View White Paper</a>
+        <a href="https://snapshot.org/#/arcanumshinrai.eth" target="_blank" style="background:#7c3aed;color:#fff;padding:12px 24px;border-radius:10px;text-decoration:none;font-weight:600">Visit DAO on Snapshot</a>
+      </div>
+    </div>
+  </body>
+</html>
